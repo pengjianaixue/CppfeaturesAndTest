@@ -1,12 +1,10 @@
-﻿// CppfeaturesAndTest.cpp: 定义应用程序的入口点。
-//
+﻿#include "CppfeaturesAndTest.h"
 
-#include "CppfeaturesAndTest.h"
-
-using namespace std;
 
 int main()
 {
-	cout << "Hello CMake。" << endl;
+	TestArea::Test();
+	std::cout << "Hello CMake" << std::endl;
+	system("pause");
 	return 0;
 }
